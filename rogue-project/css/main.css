@@ -1,0 +1,161 @@
+/*****BASE STYLES*****/
+body{
+    font-family: 'montserrat', sans-serif;
+    color: #000000;
+}
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 392px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header {
+    height: 84px;
+}
+
+header .full-width {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: #77a466;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 15px 0 0 0;
+}
+
+ header h1 span {
+    color: #77a466;
+}
+
+ nav {
+    float: right;
+    padding: 46px 0 0 0;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+ nav ul li {
+    display: inline-block;
+    padding: 0 0 0 22px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color:#77a466;
+    text-decoration: none;
+}
+
+ /*****WELCOME******/
+
+#welcome .full-width {
+    padding: 10px;
+}
+
+img {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-color: #77a466;
+}
+
+#welcome h2 {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #77a466;
+   
+}
+
+#welcome p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/*****BOTTOM-SECTION******/
+
+
+#bottom-section .full-width {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: #dedbdc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #dedbdc;
+}
+
+#bottom-section h4 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#specials p {
+    font-size: 16px;
+    color: #77a466;
+    line-height: 18px;
+}
+
+#reviews h4 {
+    margin-left: 20px;
+}
+
+#reviews p {
+    line-height: 21px;
+    margin: 0 20px 20px 20px;
+}
+
+#reviews {
+    border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+#contact {
+    margin-left: 20px;
+}
+
+#contact p {
+    line-height: 24px;
+}
+
+/*****FOOTER*****/
+footer {
+    height: 50px;
+}
+h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+h3 span {
+    font-family: 'Gelada', cursive;
+    font-size: 16px;
+    color: #77a466;
+    font-style: italic;
+    text-transform: lowercase;
+}
